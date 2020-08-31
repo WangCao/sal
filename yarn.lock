@@ -276,6 +276,13 @@
   dependencies:
     "@types/express" "*"
 
+"@types/cors@^2.8.7":
+  version "2.8.7"
+  resolved "http://registry.npm.pt.mi.com/@types/cors/download/@types/cors-2.8.7.tgz#ab2f47f1cba93bce27dfd3639b006cc0e5600889"
+  integrity sha1-qy9H8cupO84n39NjmwBswOVgCIk=
+  dependencies:
+    "@types/express" "*"
+
 "@types/express-serve-static-core@*":
   version "4.17.9"
   resolved "https://r.cnpmjs.org/@types/express-serve-static-core/download/@types/express-serve-static-core-4.17.9.tgz#2d7b34dcfd25ec663c25c85d76608f8b249667f1"
@@ -1204,6 +1211,14 @@ core-util-is@~1.0.0:
 cors@^2.8.4:
   version "2.8.5"
   resolved "https://r.cnpmjs.org/cors/download/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
+  integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
+  dependencies:
+    object-assign "^4"
+    vary "^1"
+
+cors@^2.8.5:
+  version "2.8.5"
+  resolved "http://registry.npm.pt.mi.com/cors/download/cors-2.8.5.tgz#eac11da51592dd86b9f06f6e7ac293b3df875d29"
   integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
   dependencies:
     object-assign "^4"
